@@ -6,8 +6,13 @@ import java.util.*;
  * Returns sorted integer numbers inputted from keyboard
  * - up to 10 elements
  */
-public class App 
+public class App
 {
+    /**
+     * This method is for sorting input numbers
+     * @param numbers - is String input from keyboard
+     * @return ArrayList of sorted inputed numbers
+     */
     public ArrayList<Integer> sortApp (String numbers){
 
         ArrayList<Integer> arrayListDigits = new ArrayList<>();
@@ -39,7 +44,5 @@ public class App
     }
     public static void main( String[] args ) {
         run();
-
-
     }
 }
