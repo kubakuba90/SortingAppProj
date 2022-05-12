@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SortingAppProj:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abf8ba70-488b-4e4e-a544-ddccebb5c70a" name="Changes" comment="2 Task implementation. With some test. (Before changing from ArrayList to normal array)">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SortingAppProj_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/AppTestParamFromResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/AppTestParamMoreThanTenElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SortingAppProj_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SortingAppProj_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/AppTestParametrized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/AppTestParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/numbers.txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/fotog/IdeaProjects/SortingAppProj/src/main/resources",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -182,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652357918401</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2 Task implementation. With some test. (Before changing from ArrayList to normal array)">
+      <created>1652375143650</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652375143650</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2 Task implementation. With some test. (Before changing from ArrayList to normal array)">
+      <created>1652375156009</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652375156009</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
