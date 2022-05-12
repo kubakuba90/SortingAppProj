@@ -26,10 +26,8 @@ public class AppTest
     @Test (expected = NumberFormatException.class)
     public void testZeroCase(){
         String emptySign = ""; //send to the method
-        Integer zeroNull = null; //send to arrayExpected
 
         ArrayList<Integer> arrayExpected = new ArrayList<>();
-        arrayExpected.add(zeroNull);
 
         assertEquals(arrayExpected, app.sortApp(emptySign));
     }
