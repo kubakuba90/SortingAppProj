@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abf8ba70-488b-4e4e-a544-ddccebb5c70a" name="Changes" comment="Task implementation. With some test. (Before changing from ArrayList to normal array)">
+    <list default="true" id="abf8ba70-488b-4e4e-a544-ddccebb5c70a" name="Changes" comment="2 Task implementation. With some test. (Before changing from ArrayList to normal array)">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SortingAppProj_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/AppTestParamFromResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/AppTestParamMoreThanTenElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/AppTestParametrized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/AppTestParametrized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/AppTestParametrized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/AppTestParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/numbers.txt.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +48,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.AppTestParametrized.testTenArguments">
+}]]></component>
+  <component name="RunManager" selected="JUnit.AppTestParamFromResources.testArgumentsFromResources">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.epam.App" />
       <module name="SortingAppProj" />
@@ -61,7 +73,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTestParametrized.testTenArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in SortingAppProj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingAppProj" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTestParamFromResources" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SortingAppProj" />
       <extension name="coverage">
         <pattern>
@@ -70,40 +90,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.epam" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.AppTestParametrized" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.AppTestParamFromResources" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTestParamFromResources.testArgumentsFromResources" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingAppProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.AppTestParamFromResources" />
+      <option name="METHOD_NAME" value="testArgumentsFromResources" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTestParamMoreThanTenElements.testTenArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingAppProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.AppTestParamMoreThanTenElements" />
       <option name="METHOD_NAME" value="testTenArguments" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testOneArgument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SortingAppProj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.AppTest" />
-      <option name="METHOD_NAME" value="testOneArgument" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testZeroCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SortingAppProj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epam" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.AppTest" />
-      <option name="METHOD_NAME" value="testZeroCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,10 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTestParametrized.testTenArguments" />
-        <item itemvalue="JUnit.AppTest.testZeroCase" />
-        <item itemvalue="JUnit.AppTest.testOneArgument" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTestParamFromResources.testArgumentsFromResources" />
+        <item itemvalue="Application.com.epam.App" />
+        <item itemvalue="JUnit.All in SortingAppProj" />
+        <item itemvalue="JUnit.AppTestParamFromResources" />
+        <item itemvalue="JUnit.AppTestParamMoreThanTenElements.testTenArguments" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652353149776</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2 Task implementation. With some test. (Before changing from ArrayList to normal array)">
+      <created>1652357906925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652357906925</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2 Task implementation. With some test. (Before changing from ArrayList to normal array)">
+      <created>1652357918401</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652357918401</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task implementation. Without tests." />
     <MESSAGE value="Task implementation. With some test. (Before changing from ArrayList to normal array)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task implementation. With some test. (Before changing from ArrayList to normal array)" />
+    <MESSAGE value="2 Task implementation. With some test. (Before changing from ArrayList to normal array)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 Task implementation. With some test. (Before changing from ArrayList to normal array)" />
   </component>
 </project>

@@ -2,43 +2,36 @@ package com.epam;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
 import java.util.*;
-
 import static org.junit.Assert.assertEquals;
-
 
 /**
  * Parametrized 10 arguments test for App.
  */
 @RunWith(value = Parameterized.class)
-public class AppTestParametrized {
+public class AppTestParam {
 
     private String numbers;
-    private static ArrayList<Integer> arrayExpected = new ArrayList<>();
+    private Integer[] list;
     protected App app = new App();
 
-    public AppTestParametrized(String numbers, ArrayList<Integer> arrayExpected) {
+    public AppTestParam(String numbers, Integer[] list) {
         this.numbers = numbers;
-        this.arrayExpected = arrayExpected;
+        this.list = list;
     }
-
 
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
-        Collections.addAll(arrayExpected, 0, 1, 1, 2, 3, 4, 6, 10, 16, 99);
         return Arrays.asList(new Object[][]{
-                {"4 1 3 6 99 0 1 2 16 10", arrayExpected}
+                {"4 1 3 6 99 0 1 2 16 10", new Integer[]{0, 1, 1, 2, 3, 4, 6, 10, 16, 99}},
+                {"9 99 999 11 1 111 5 55 5 6", new Integer[]{1, 5, 5, 6, 9, 11, 55, 99, 111, 999}}
         });
     }
 
-
-
-
     @Test
     public void testTenArguments() {
-        assertEquals(app.sortApp(numbers), arrayExpected);
+        ArrayList<Integer> newExpectedArrayList = new ArrayList<>();
+        Collections.addAll(newExpectedArrayList, list);
+        assertEquals(app.sortApp(numbers), newExpectedArrayList);
     }
-
-
 }
