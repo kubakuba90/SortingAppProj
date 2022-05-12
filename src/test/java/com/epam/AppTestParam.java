@@ -4,7 +4,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import java.util.*;
 import static org.junit.Assert.assertEquals;
-
 /**
  * Parametrized 10 arguments test for App.
  */

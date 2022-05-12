@@ -6,7 +6,6 @@ import static org.junit.Assert.assertEquals;
 /**
  * Unit test for App
  */
-
 public class AppTest 
 {
     protected App app = new App();

@@ -34,5 +34,4 @@ public class AppTestParamMoreThanTenElements {
         Collections.addAll(newExpectedArrayList, list);
         assertEquals(app.sortApp(numbers), newExpectedArrayList);
     }
-
 }
